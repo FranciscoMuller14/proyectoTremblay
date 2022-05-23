@@ -5,14 +5,265 @@
     margin:0;
 }
 
+
+.container-fluid{
+    background-color: rgb(168, 168, 245);
+    height: 5cm;
+    
+}
+
 footer{
     background-color: blue;
 }
 
 img{
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       margin-top: 15px;
         
 }
+a img{
+   
+     height: 150px;
+     width: 200px;
+     margin-left: 50px;
+}
+.sabor{
+    height: 100px;
+    width: 100px;
+    margin-right: 0px;
+}
 
+/*--------------------------*/
+nav{
+    grid-area: nav;
+    
+}
+
+.main-index{
+    grid-area: main;
+}
+
+.grillaLacteos{
+    grid-area: lacteos;
+}
+
+.grillaBlando{
+    grid-area: blando;
+}
+
+.grillaEspecial{
+    grid-area: especial;
+}
+
+.grillaDuros{
+    grid-area: duros;
+}
+
+.grillaSemi{
+    grid-area: semi;
+}
+
+
+nav{
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.main-index{
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+      
+}
+
+.grillaLacteos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: auto;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+    
+
+}
+
+
+
+/*tamaño nav. logo tremblay. formulario contacto(¿Que mas?). 
+Titulos a cada html. descripcion de cada imagen. info footer*/ 
+
+.grillaBlando{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.grillaEspecial{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    gap: 15px;
+    align-items: center;
+    justify-items: center
+}
+.grillaDuros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    gap: 15px;
+    align-items: center;
+    justify-items: center
+}
+
+.grillaSemi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    gap: 15px;
+    align-items: center;
+    justify-items: center
+}
+
+.barra{
+    grid-template-areas:
+    nav nav nav;
+}
+/*------------------------------------*/
+
+
+a:hover{
+    background-color: rgb(111, 111, 254);
+    
+}
+h2{
+    font-size: 0,75cm;
+    margin-left: 35%;
+}
+h3{
+    font-size: 0,5cm;
+    margin-left: 40%;
+}
+
+/*------------------------------------*/
+
+
+@media (max-width:1000px){
+    
+    .grillaLacteos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .grillaBlando{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    .grillaEspecial{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    .grillaDuros{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    
+    .grillaSemi{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    
+}
+@media (max-width:750px){
+    .grillaLacteos{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    
+       
+    .grillaBlando{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    .grillaEspecial{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    .grillaDuros{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    
+    .grillaSemi{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+}
