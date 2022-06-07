@@ -1,0 +1,47 @@
+$distorsion:blur(5px);
+@mixin size($width, $heigth) {
+    height: $heigth;
+    width: $width;
+}
+
+img{
+    @include sizes(200px, 200px);
+    margin-top: 15px;
+
+    a img{
+ 
+        @include sizes(150px, 200px);
+        margin-left: 50px;
+}
+
+}
+
+.grilla-index:hover{
+    filter:$distorsion;
+ 
+}
+
+
+.grilla1:hover{
+    filter:$distorsion;
+}
+
+.grilla2:hover{
+    filter:$distorsion;
+}
+
+.grilla3:hover{
+    filter:$distorsion;
+}
+
+.grilla4:hover{
+    filter:$distorsion;
+}
+
+.grilla5:hover{
+    filter:$distorsion;
+}
+
+.grilla6:hover{
+    filter:$distorsion;
+}

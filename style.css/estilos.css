@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oooh+Baby&family=Poppins:wght@600&family=Quicksand:wght@300&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap");
+@import url("index");
+@import url("medias");
+@import url("img");
 * {
   padding: 0;
   margin: 0;
@@ -168,135 +171,40 @@ a:hover {
   background-color: #6f6ffe;
 }
 
-img:hover {
+.grilla-index:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.grilla1:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.grilla2:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.grilla3:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.grilla4:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.grilla5:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.grilla6:hover {
   -webkit-filter: blur(5px);
           filter: blur(5px);
 }
 
 /*------------------------------------*/
-@media (max-width: 1000px) {
-  .grillaLacteos {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaBlando {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaEspecial {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaDuros {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaSemi {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-}
-
-@media (max-width: 750px) {
-  .grillaLacteos {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaBlando {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaEspecial {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaDuros {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-  .grillaSemi {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    height: auto;
-    gap: 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    justify-items: center;
-  }
-}
 /*# sourceMappingURL=estilos.css.map */

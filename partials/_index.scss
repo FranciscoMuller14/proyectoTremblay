@@ -62,7 +62,10 @@ main{
     
 }
 
-
+.grilla-index:hover{
+       filter:blur(5px);
+    
+}
 footer{
     background-color: $blue;
 }

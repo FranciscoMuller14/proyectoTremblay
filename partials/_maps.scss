@@ -1,0 +1,37 @@
+.extend{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    gap: 15px;
+    align-items: center;
+    justify-items: center
+}
+.grillaEspecial{
+    @extend .extend;
+}
+.grillaDuros{
+    @extend .extend;
+}
+
+.grillaSemi{
+    @extend .extend;
+}
+
+
+@mixin size($width, $heigth) {
+    height: $heigth;
+    width: $width;
+}
+
+img{
+    @include sizes(200px, 200px);
+    margin-top: 15px;
+
+    a img{
+ 
+        @include sizes(150px, 200px);
+        margin-left: 50px;
+}
+
+}

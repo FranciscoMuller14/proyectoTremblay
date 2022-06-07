@@ -1,0 +1,99 @@
+@media (max-width:1000px){
+    
+    .grillaLacteos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    .grillaBlando{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    .grillaEspecial{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    .grillaDuros{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    
+    .grillaSemi{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    
+}
+@media (max-width:750px){
+    .grillaLacteos{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    
+    }
+    
+       
+    .grillaBlando{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    .grillaEspecial{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    .grillaDuros{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+    
+    .grillaSemi{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 15px;
+        align-items: center;
+        justify-items: center
+    }
+}
