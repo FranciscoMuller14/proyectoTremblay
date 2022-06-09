@@ -12,9 +12,57 @@ img{
  
         @include sizes(150px, 200px);
         margin-left: 50px;
-}
+    }
+    
+.manteca{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+  }
+  .manteca img{
+    width: 100%;
+    height: 100%;
+  }
+  .manteca p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  }
+
+  .manteca{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+  }
+  .manteca img{
+    width: 100%;
+    height: 100%;
+  }
+  .manteca p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  }
+
+
 
 }
+
+
 
 .grilla-index:hover{
     filter:$distorsion;

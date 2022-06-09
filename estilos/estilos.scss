@@ -15,7 +15,7 @@
 }
 
 footer{
-    background-color: blue;
+    background-color: rgb(37, 37, 255);
 }
 
 img{
@@ -24,8 +24,8 @@ img{
         
 }
 a img{
-    @include sizes(150px, 200px);
-    margin-left: 50px;
+    @include sizes(250px, 300px);
+    margin-left: 20px;
 }
 .sabor{
     height: 100px;
@@ -71,7 +71,7 @@ nav{
     height: auto;
     align-items: center;
     justify-items: center;
-    
+    font-size: 40px;
     
 }
 
@@ -141,35 +141,9 @@ a:hover{
     background-color: rgb(111, 111, 254);
     
 }
-$distorsion:blur(5px);
 
-.grilla-index:hover{
-    filter:$distorsion;
- 
-}
 
-.grilla1:hover{
-    filter:$distorsion;
-}
 
-.grilla2:hover{
-    filter:$distorsion;
-}
-
-.grilla3:hover{
-    filter:$distorsion;
-}
-
-.grilla4:hover{
-    filter:$distorsion;
-}
-
-.grilla5:hover{
-    filter:$distorsion;
-}
-.grilla6:hover{
-    filter:$distorsion;
-}
 /*------------------------------------*/
 
 

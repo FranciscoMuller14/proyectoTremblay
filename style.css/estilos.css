@@ -7,10 +7,89 @@
   margin: 0;
 }
 
-footer {
-  background-color: blue;
+main{
+  background-color:rgb(25, 25, 131);
 }
 
+.titulo{
+  font-size: 50px;
+  color: rgb(221, 224, 0);
+  margin-left: 20px;
+
+  
+}
+
+.texto1{
+  font-size: 20px;
+  color: rgb(221, 224, 0);
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 10px;
+  border-color:  rgb(221, 224, 0);
+  border-radius: 20px;
+  justify-content: center;
+  
+}
+
+.quesosTremblay{
+ 
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: auto;
+      -ms-flex-align: auto;
+          align-items: auto;
+  justify-items: auto;
+}
+.quesos{
+  height: 500px;
+  width: 600px;
+}
+.titulo2{
+  font-size: 40px;
+  color: rgb(221, 224, 0);
+  margin-left: 40px;
+}
+
+.texto2{
+  font-size: 15px;
+  color: rgb(221, 224, 0);
+  margin-left: 45px;
+
+}
+
+.titulo3{
+  font-size: 30px;
+  color: rgb(25, 25, 131);
+  margin-top: 30px;
+  margin-left: 70px;
+}
+footer {
+  
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: auto;
+      -ms-flex-align: auto;
+          align-items: auto;
+  justify-items: auto;
+  grid-template-areas: "tremblayPie pie";
+}
+.tremblayPie{
+  margin-top: 30px;
+  margin-left: 75px;
+}
+.pie{
+  margin-top: 30px;
+  margin-left: 30px;
+}
 img {
   width: 200px;
   height: 200px;
@@ -18,22 +97,27 @@ img {
 }
 
 a img {
-  height: 150px;
-  width: 200px;
-  margin-left: 50px;
+  height: 250px;
+  width: 350px;
+  margin-left: 20px;
 }
 
+a img:hover{
+  transform: scale(1,1);
+  box-shadow: 13px 15px 37px black;
+}
 .sabor {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   margin-right: 0px;
 }
 
-/*--------------------------*/
+
 nav {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: nav;
+  font-size: 40px;
 }
 
 .main-index {
@@ -96,7 +180,7 @@ nav {
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   height: auto;
-  gap: 15px;
+  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -110,7 +194,7 @@ nav {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  gap: 15px;
+  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -125,7 +209,7 @@ nav {
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
   height: auto;
-  gap: 15px;
+  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -140,7 +224,7 @@ nav {
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
   height: auto;
-  gap: 15px;
+  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -155,56 +239,238 @@ nav {
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
   height: auto;
-  gap: 15px;
+  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
 }
-
+.grilla-index{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .barra {
       grid-template-areas: nav nav nav;
 }
 
-/*------------------------------------*/
-a:hover {
-  background-color: #6f6ffe;
+.navbar-brand:hover{
+ background-color: #6f6ffe; 
 }
 
-.grilla-index:hover {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+.nav-link:hover{
+  background-color: #6f6ffe; 
 }
 
-.grilla1:hover {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+
+
+.grilla-index:hover{
+  transform: scale(1,1);
+  box-shadow: 13px 15px 37px black;
+}
+.grilla-index{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+width: 350px;
+height: 300px;
+overflow: hidden;
+position: relative;
+border-radius: 20px;
+box-shadow: 5px 8px 12px black;
+}
+.grilla-index img{
+width: 100%;
+height: 100%;
+
+}
+.grilla-index p{
+font-size: 20px;
+color: rgb(0, 0, 0);
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-.grilla2:hover {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+.grilla1:hover{
+    transform: scale(1,1);
+    box-shadow: 13px 15px 37px black;
+}
+.grilla1{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+}
+.grilla1 img{
+  width: 100%;
+  height: 100%;
+
+}
+.grilla1 p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-.grilla3:hover {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+.grilla2:hover{
+  transform: scale(1,1);
+  box-shadow: 13px 15px 37px black;
+}
+.grilla2{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+}
+.grilla2 img{
+  width: 100%;
+  height: 100%;
+}
+.grilla2 p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-.grilla4:hover {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+.grilla3:hover{
+  transform: scale(1,1);
+  box-shadow: 13px 15px 37px black;
 }
 
-.grilla5:hover {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+.grilla3{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+}
+.grilla3 img{
+  width: 100%;
+  height: 100%;
+}
+.grilla3 p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-.grilla6:hover {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+.grilla4:hover{
+  transform: scale(1,1);
+  box-shadow: 13px 15px 37px black;
 }
 
-/*------------------------------------*/
+.grilla4{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+}
+.grilla4 img{
+  width: 100%;
+  height: 100%;
+}
+.grilla4 p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.grilla5:hover{
+  transform: scale(1,1);
+  box-shadow: 13px 15px 37px black;
+}
+
+.grilla5{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+}
+.grilla5 img{
+  width: 100%;
+  height: 100%;
+}
+.grilla5 p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.grilla6:hover{
+  transform: scale(1,1);
+  box-shadow: 13px 15px 37px black;
+}
+
+.grilla6{
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+}
+.grilla6 img{
+  width: 100%;
+  height: 100%;
+}
+.grilla6 p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
 /*# sourceMappingURL=estilos.css.map */
